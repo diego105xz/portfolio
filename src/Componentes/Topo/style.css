@@ -1,0 +1,40 @@
+header{
+    background-color: #121212;
+    width: 100%;
+    position: fixed;
+}
+
+header div{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #151515;
+}
+
+header p{
+    color: #00D2DF;
+    font-size: 24px;
+    line-height: 29.05px;
+    padding: 10px 0px;
+}
+
+header nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+header a:hover{
+    color: #00D2DF;
+}
