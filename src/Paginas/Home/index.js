@@ -3,6 +3,7 @@ import React from "react";
 import Topo from "../../Componentes/Topo";
 import SecaoCapa from "../../Componentes/SecaoCapa";
 import SecaoSobre from "../../Componentes/SecaoSobre";
+import SecaoExperiencia from "../../Componentes/SecaoExperiencia";
 import Rodape from "../../Componentes/Rodape";
 
 function Home(){
@@ -12,6 +13,7 @@ function Home(){
             <main>
                 <SecaoCapa />
                 <SecaoSobre />
+                <SecaoExperiencia />
             </main>
             <Rodape />
         </div>
