@@ -2,6 +2,7 @@ import './style.css';
 
 import NuvemLogo from '../../assets/download-cloud.svg';
 import EmailLogo from '../../assets/email.svg';
+import curriculo from '../../assets/Diego-Jesus-Melo.pdf';
 
 function SecaoSobre(){
     return(
@@ -16,9 +17,9 @@ function SecaoSobre(){
                     <div className='campo-sobre1'>
                         <h2>Sobre mim</h2>
                         <h3>São Paulo, Brasil</h3>
-                        <p>Meu Nome é Diego tenho 30 anos sou formado em Análise e densenvolvimento de Sistemas, dedico meu tempo livre para estudar e elaborar projetos Front End melhorando minhas habilidades com objetivo de conseguir uma oportunidade de iniciar minha carreira na area.</p>
-                        <div className='botoes'>
-                            <a className="btn-rosa1" href='#'>
+                        <p>Sou apaixonado por programação tanto que em meu tempo livre eu me dedico ao meu hobby de estudar e elaborar projetos Front End. melhorando minhas habilidades com objetivo de conseguir uma oportunidade de iniciar minha carreira na área.</p>
+                        <div className='botoes' >
+                            <a className="btn-rosa1" href={curriculo} target='_blank' rel="noreferrer">
                                 <img src={NuvemLogo} alt='logo-nuvem'/>Curriculo
                             </a>
 

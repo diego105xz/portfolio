@@ -12,11 +12,11 @@ function SecaoCapa(){
                     <h1>Diego Melo</h1>
                     <p>Desenvolvedor front-end JR.</p>
                     <div>
-                        <a className="btn-azul" href='https://www.linkedin.com/in/diego-melo-1863971b2/'>
+                        <a className="btn-azul" href='https://www.linkedin.com/in/diego-melo-1863971b2/' target='_blank' rel="noreferrer">
                             <img src={logoLinkedin} alt='logo-linkedin'/>Linkedin
                         </a>
 
-                        <a className="btn-rosa" href='https://github.com/diego105xz'>
+                        <a className="btn-rosa" href='https://github.com/diego105xz' target='_blank' rel="noreferrer">
                             <img src={logoGitHub} alt='logo-github'/>GitHub
                         </a>  
                     </div>    
