@@ -37,6 +37,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav a:hover{
+	color: #00D2DF;
+}
+
 .checkbtn {
 	font-size: 30px;
 	color: #00D2DF;

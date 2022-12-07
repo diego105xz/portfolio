@@ -18,7 +18,7 @@ function SecaoExperiencia(){
                 </div>
                 <div className='exp1'>
                     <div className='titulo'>
-                        <h4>Estágio Analista Suporte N1</h4>
+                        <h4>Estágio Suporte N1</h4>
                         <p>Dez 2019 - JUL 2021</p>
                     </div>
                     <h5>Beesby</h5>

@@ -105,3 +105,51 @@
     font-size: 16px;
     color: #ffffff;
 }
+
+
+@media (max-width: 850px) {
+    .sobre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foto{
+        width: 200px;
+        height: 200px;
+    }
+
+    .campo-foto{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .campo-sobre{
+        width: 100%;
+    }
+    .campo-sobre1{
+        text-align: center;
+    }
+
+    .campo-sobre1 p{
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px;
+        font-weight: normal;
+    }
+
+    .botoes{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .campo-sobre1 p{
+        font-size: 14px;
+        color: #c4c4c4;
+        line-height: 32px;
+        text-align: justify;
+    }
+}

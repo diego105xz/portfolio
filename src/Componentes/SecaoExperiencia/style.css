@@ -5,7 +5,7 @@
 }
 
 .exp1{
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .secao-exp{
@@ -17,17 +17,21 @@
 
 .secao-exp h3{
     color: #FFFFFF;
-    margin: 50px auto;
     text-align: center;
     font-size: 30px;
 }
 
 .titulo{
-    margin: 20px 0px 20px;
+    margin: 10px 0px 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #FFFFFF;
+}
+
+.titulo p{
+    font-size: 16px;
 }
 
 .titulo h4{
@@ -35,13 +39,48 @@
 }
 
 h5{
-    font-size: 20px;
+    font-size: 18px;
     color: #00D2DF;
 }
 
-.descricao{
+.exp1 .descricao{
     margin: 20px 0px 20px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     color: #C4C4C4;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+@media (max-width: 850px) {
+    h5{
+        font-size: 18px;
+    }
+
+    .titulo h4{
+        font-size: 22px;
+    }
+
+    .exp1 .descricao{
+        font-size: 12px;
+        text-align: justify;
+        padding: 0px;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .titulo h4{
+        font-size: 16px;
+    }
+
+    .titulo p{
+        font-size: 12px;
+    }
+
+    .exp1 .descricao{
+        font-size: 12px;
+        text-align: justify;
+        padding: 0px;
+    }
 }

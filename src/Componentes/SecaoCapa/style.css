@@ -95,7 +95,7 @@
     border: 10px solid transparent;
 }
 
-@media (max-width:850px ) {
+@media (max-width:1000px ) {
     .secao-capa1{
         flex-wrap: wrap;
         flex-direction: column;
