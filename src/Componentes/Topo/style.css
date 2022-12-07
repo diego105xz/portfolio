@@ -57,7 +57,6 @@ nav a:hover{
 @media (max-width: 952px){
 	p{
 		font-size: 30px;
-		padding-left: 50px;
 	}
 	nav ul li a{
 		font-size: 16px;
@@ -96,11 +95,10 @@ nav a:hover{
 
 	header div{
 		width: auto;
+		display: flex;
+		justify-content: space-between;
 	}
 
-	nav{
-		margin-right: 25px;
-	}
 }
 /*
 header{
