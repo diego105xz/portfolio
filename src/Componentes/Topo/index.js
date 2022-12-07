@@ -6,11 +6,17 @@ function Topo(){
             <div>
                 <p>Portfólio</p>
                 <nav>
-                    <a href="capa">Home</a>
-                    <a href="#sobre">Sobre mim</a>
-                    <a href="#exp">Experiência</a>
-                    <a href="#projetos">Projetos</a>
-                </nav>
+                    <input type="checkbox" id="check"/>
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li><a href="https://diego105xz.github.io/portfolio/">Home</a></li>
+                        <li><a href="#ir-sobre">Sobre mim</a></li>
+                        <li><a href="#ir-exp">Experiência</a></li>
+                        <li><a href="#ir-projetos">Projetos</a></li>
+                    </ul>
+                </nav>       
             </div>
         </header>
     );

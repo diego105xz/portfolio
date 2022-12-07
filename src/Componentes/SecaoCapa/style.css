@@ -94,3 +94,46 @@
     border-radius: 55px;
     border: 10px solid transparent;
 }
+
+@media (max-width:850px ) {
+    .secao-capa1{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .perfil p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .perfil{
+        margin-top: 50px;
+    }
+
+    .perfil h1{
+        margin-left: 50px;
+        text-align: left;
+        font-size: 32px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        line-height: 32px;
+    }
+
+    .perfil div{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .programando, .perfil{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .programando img{
+        width: 60%;
+        margin-bottom: 120px;
+    }
+}
