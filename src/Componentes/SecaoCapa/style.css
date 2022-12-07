@@ -105,6 +105,8 @@
     .perfil p{
         font-size: 16px;
         text-align: justify;
+        margin-left: 50px;
+        padding: 0px;
     }
 
     .perfil{
@@ -134,6 +136,13 @@
 
     .programando img{
         width: 60%;
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 700px) {
+    .programando img{
+        width: 80%;
         margin-bottom: 120px;
     }
 }
