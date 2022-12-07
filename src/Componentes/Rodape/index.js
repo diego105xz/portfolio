@@ -5,10 +5,10 @@ function Rodape(){
     return(
         <footer>
             <div className='rodape'>
-                <p>@ 2022 - Diego Melo</p>
-                <div>
-                    <p>Powered by</p>
-                    <img src={RodapeLogo} alt="Logo-rodape"/>
+                <p className='diego2022'>@ 2022 - Diego Melo</p>
+                <div >
+                    <p className='power'>Powered by</p>
+                    <img src={RodapeLogo} alt="Logo-rodape" className='rodape-logo'/>
                 </div>
             </div>
         </footer>

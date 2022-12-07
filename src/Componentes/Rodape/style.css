@@ -12,12 +12,22 @@ footer{
     padding: 30px 0px 30px;
 }
 
-.rodape p{
-    color: #c4c4c4;
-    font-size: 16px;
-    padding-right: 10px;
-}
-
 .rodape div{
     display: flex;
 }
+
+.diego2022{
+    color: #c4c4c4;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.rodape-logo{
+    padding-right: 25px;
+}
+
+.power{
+    color: #c4c4c4;
+    font-size: 16px;
+}
+
