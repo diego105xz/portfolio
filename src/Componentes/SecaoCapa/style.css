@@ -1,0 +1,148 @@
+.secao-capa{
+    background-color: #121212;
+    height: 100vh;
+    width: 100%;
+}
+
+.secao-capa1{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.perfil{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00d2df;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.perfil p{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.perfil div{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+
+}
+
+.btn-azul{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right top, #9358F7, #10D7E2) border-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-decoration: none;  
+    padding: 10px 70px;  
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn-azul img, .btn-rosa img{
+    margin-right: 10px;
+}
+
+.btn-rosa{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right bottom, #D24074, #6518B4) border-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-decoration: none;  
+    padding: 10px 70px;  
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+.programando{
+    width: 60%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.programando img{
+    border-radius: 25px;
+    background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right top, #9358F7, #10D7E2) border-box;
+    border-radius: 55px;
+    border: 10px solid transparent;
+}
+
+@media (max-width:1000px ) {
+    .secao-capa1{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .perfil p{
+        font-size: 16px;
+        text-align: justify;
+        margin-left: 50px;
+        padding: 0px;
+    }
+
+    .perfil{
+        margin-top: 50px;
+    }
+
+    .perfil h1{
+        margin-left: 50px;
+        text-align: left;
+        font-size: 32px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        line-height: 32px;
+    }
+
+    .perfil div{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .programando, .perfil{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .programando img{
+        width: 60%;
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 700px) {
+    .programando img{
+        width: 80%;
+        margin-bottom: 120px;
+    }
+}

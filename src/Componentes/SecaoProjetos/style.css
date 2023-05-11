@@ -1,0 +1,128 @@
+.secao-projetos{
+    background-color: #09090B;
+    width: 100%;
+}
+
+.secao-projetos h3{
+    padding: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.colecao-card{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    margin-bottom: 100px;
+}
+
+.foto-projeto{
+    border-left: 5px solid #10D7E2;
+    width: 100%;
+    height: 250px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.titulo-proj{
+    color: #ffffff;
+    font-size: 24px;
+    width: 100%;
+}
+
+
+
+.descricao{
+    font-size: 18px;
+    color:#C4C4C4;
+    line-height: 26px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.tecnolongias{
+    width: 100%;
+    color: #10D7E2;
+    font-size: 18px;
+}
+
+.btn-azul2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right top, #9358F7, #10D7E2) border-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-decoration: none;  
+    padding: 10px 100px;  
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    bottom: 0px;
+
+}
+
+.btn-azul2 img{
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 850px) {
+    .colecao-card{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    .card .descricao{
+        font-size: 12px;
+        padding: 0px;
+        line-height: 16px;
+    }
+
+    .tecnolongias{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .titulo-proj{
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .foto-projeto{
+        height: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+    .foto-projeto{
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .foto-projeto{
+        height: 250px;
+    }
+}
